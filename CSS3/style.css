@@ -1,0 +1,27 @@
+#prin{
+    border: 5px solid red;
+    background-color: grey;
+}
+
+.conteudo {
+    background-color: blue;
+    border: solid black;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-weight: bolder;
+    float: left;
+    margin: 10px;
+}
+
+.flut{
+    background: red;
+    border: black solid;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.texticulo{
+    clear: left;
+}
