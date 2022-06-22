@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-cabecalho: #f7b600;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+
+
+
+/*Layout*/
+header{
+    background-color: var(--cor-cabecalho);
+    padding: 15px;
+    text-align: center;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a{
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: var(--cor-cabecalho);
+    background-color: white;
+}
+
+main, footer{
+    width: 920px;
+    margin: 0px auto;
+}
+
+section{
+    background-color: orange;
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+aside{
+    background-color: orange;
+    width: 240px;
+    float: right;
+}
+
+footer{
+    clear: both;
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px 0px;
+}
